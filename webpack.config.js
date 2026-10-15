@@ -164,7 +164,12 @@ module.exports = (env, argv) => {
         patterns: [
           { 
             from: 'src/font', 
-            to: 'font', 
+            to: 'font',
+            noErrorOnMissing: true 
+          },
+          { 
+            from: 'src/html',
+            to: 'html', 
             noErrorOnMissing: true 
           },
         ],
