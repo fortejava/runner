@@ -1,0 +1,14 @@
+@import 'bootstrap/bootstrap';
+
+.view
+{
+
+    display: none;
+
+    &.visible
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
